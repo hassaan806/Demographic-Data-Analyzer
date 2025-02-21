@@ -1,7 +1,6 @@
 import pandas as pd
 
 def calculate_demographic_data(print_data=True):
-    # Read the dataset
     df = pd.read_csv("adult.data.csv")
 
     # 1. Count of each race
