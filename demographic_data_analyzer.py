@@ -46,7 +46,7 @@ def calculate_demographic_data(print_data=True):
         print(f"Country with highest percentage of rich: {highest_earning_country} ({highest_earning_country_percentage}%)")
         print(f"Top occupations in India: {top_IN_occupation}")
 
-    # Return results in a dictionary
+    
     return {
         "race_count": race_count,
         "average_age_men": average_age_men,
